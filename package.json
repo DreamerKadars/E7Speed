@@ -96,12 +96,19 @@
     }
   },
   "dependencies": {
+    "@arco-design/web-react": "^2.60.1",
+    "@xstate/react": "^4.1.0",
+    "axios": "^1.6.7",
+    "axios-hooks": "^5.0.2",
+    "chart.js": "^4.4.2",
     "electron-debug": "^3.2.0",
     "electron-log": "^4.4.8",
     "electron-updater": "^6.1.4",
     "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.16.0"
+    "react-router-dom": "^6.16.0",
+    "xstate": "^5.9.1"
   },
   "devDependencies": {
     "@electron/notarize": "^2.1.0",
@@ -151,6 +158,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "mini-css-extract-plugin": "^2.7.6",
     "prettier": "^3.0.3",
+    "react-cookies": "^0.1.1",
     "react-refresh": "^0.14.0",
     "react-test-renderer": "^18.2.0",
     "rimraf": "^5.0.1",
